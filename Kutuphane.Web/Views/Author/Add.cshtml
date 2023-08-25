@@ -1,0 +1,24 @@
+﻿@model Author 
+
+<form class="form"  method="post">
+    <label asp-for="Name" class="form-label btn btn-outline-dark">Yazar Adı</label>
+
+    @*  bu sayfnaın modelını buluyor name sıne bakıyor ve o namın verı tıpıne bakıyor ve arka planda oto text olusturuyor. *@
+    <input asp-for="Name" class="form-control  btn btn-outline-dark" placeholder="Lütfen yazar adını giriniz:" />
+    <label asp-for="Biography" class="form-label btn btn-outline-dark">Biography</label>
+    @* <input asp-for="Biography" class="form-label"/> *@
+    <textarea asp-for="Biography" class="form-control  btn btn-outline-dark" rows="5" placeholder="Lütfen biyografi giriniz: "></textarea>
+
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+    <button type="reset" class="btn btn-danger">Temizle</button>
+
+
+    
+
+
+
+</form>
+
+
+

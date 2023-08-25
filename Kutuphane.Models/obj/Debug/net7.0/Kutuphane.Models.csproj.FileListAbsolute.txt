@@ -1,0 +1,11 @@
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\bin\Debug\net7.0\Kutuphane.Models.deps.json
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\bin\Debug\net7.0\Kutuphane.Models.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\bin\Debug\net7.0\Kutuphane.Models.pdb
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.AssemblyInfoInputs.cache
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.AssemblyInfo.cs
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.csproj.CoreCompileInputs.cache
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\refint\Kutuphane.Models.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\Kutuphane.Models.pdb
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Models\obj\Debug\net7.0\ref\Kutuphane.Models.dll

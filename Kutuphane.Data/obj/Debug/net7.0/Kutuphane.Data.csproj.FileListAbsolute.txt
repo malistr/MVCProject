@@ -1,0 +1,17 @@
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Data.deps.json
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Data.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Data.pdb
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.AssemblyInfoInputs.cache
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.AssemblyInfo.cs
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.csproj.CoreCompileInputs.cache
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\refint\Kutuphane.Data.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.pdb
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\ref\Kutuphane.Data.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Models.dll
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Models.pdb
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.csproj.AssemblyReference.cache
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.csproj.CopyComplete
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\bin\Debug\net7.0\Kutuphane.Data.runtimeconfig.json
+C:\Users\mehme\source\repos\Kutuphane\Kutuphane.Data\obj\Debug\net7.0\Kutuphane.Data.genruntimeconfig.cache
