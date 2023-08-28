@@ -1,6 +1,7 @@
 ﻿using Kutuphane.Data;
 using Kutuphane.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Kutuphane.Web.Controllers
 {
@@ -17,7 +18,9 @@ namespace Kutuphane.Web.Controllers
         
         public IActionResult Index()
         {
-            return View();
+            List<Author> authorList = _context.Authors.ToList<Author>();
+
+            return View(authorList);
         }
 
         [HttpGet]
@@ -32,6 +35,38 @@ namespace Kutuphane.Web.Controllers
             _context.Authors.Add(author);
             _context.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+           Author authorToBedeleted = _context.Authors.Find(id);
+            _context.Authors.Remove(authorToBedeleted);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Edit(int id)
+        {
+            //Author authorToBedeleted = _context.Authors.Find(id);
+            //_context.Authors.Remove(_context.Authors.Find(id));
+
+            return View(_context.Authors.Find(id));
+
+
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Author author)
+        {
+            //Author authorToBedeleted = _context.Authors.Find(id);
+            //_context.Authors.Remove(_context.Authors.Find(id));
+
+            _context.Authors.Update(author);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+
+
+
         }
     }
 }

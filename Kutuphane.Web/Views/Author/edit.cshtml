@@ -4,15 +4,16 @@
     <label asp-for="Name" class="form-label">Yazar Adı:</label>
 
     @*  bu sayfnaın modelını buluyor name sıne bakıyor ve o namın verı tıpıne bakıyor ve arka planda oto text olusturuyor. *@
-    <input asp-for="Name" class="form-control" placeholder="Lütfen yazar adını giriniz:" />
+    <input asp-for="Name" class="form-control" value="@Model.Name" placeholder="Lütfen yazar adını giriniz:" />
     <label asp-for="Biography" class="form-label">Biography</label>
     @* <input asp-for="Biography" class="form-label"/> *@
-    <textarea asp-for="Biography" class="form-control" rows="5" placeholder="Lütfen biyografi giriniz: "></textarea>
+    <textarea asp-for="Biography" class="form-control" rows="5" placeholder="Lütfen biyografi giriniz: ">@Model.Biography</textarea>
 
 
-    <button type="submit" class="btn btn-primary">Ekle</button>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
     <button type="reset" class="btn btn-danger">Temizle</button>
 
-</form>
 
+
+</form>
 

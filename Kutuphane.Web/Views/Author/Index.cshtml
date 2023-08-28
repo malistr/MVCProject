@@ -1,2 +1,41 @@
-﻿<a class="btn btn-warning" asp-action ="Add" asp-controller="Author">Yazar Ekle</a>
-<a class="btn btn-warning" asp-action ="Add" asp-controller="Author">Biyografi Ekle</a>
+﻿@model List<Author>
+
+<a class="btn btn-warning" asp-action="Add" asp-controller="Author">Yazar Ekle</a>
+
+<table class="table tabele-striped table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Yazar Adi</th>
+            <th>Biyografisi</th>
+            <th>İslemler</th>
+        </tr>
+
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Biography</td>
+                <td>
+
+
+                    <a onclick="return confirm ('Silmek istediğinize emin misiniz ?')"
+                       asp-controller="Author" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+
+
+                    <a asp-controller="Author" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Düzenle</a>
+
+
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+
+
+</table>
